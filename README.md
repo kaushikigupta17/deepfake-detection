@@ -1,4 +1,7 @@
 # Deepfake Detection - AI vs AI Hackathon
+## Team Members
+- Kaushiki Gupta (@kaushikigupta17)
+- Bhumi Mittal (@Bhumimittal15)
 
 ## What we built
 A deepfake detection model that classifies face images as REAL or FAKE.
