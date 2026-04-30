@@ -1,34 +1,23 @@
-# Deepfake Detection - AI vs AI Hackathon
+# 🕵️ Deepfake Detector
 
-## Team Kasukabe
-- Kaushiki Gupta (@kaushikigupta17)
-- Bhumi Mittal (@Bhumimittal15)
+A deep learning model to detect AI-generated/fake faces vs real faces.
 
-## Overview
-A complete AI pipeline for deepfake detection, adversarial attacks, and robust defense.
-Built for CodeAI Hackathon 2026 — JIIT Noida.
+## 🔗 Live Demo
+[Try it on Hugging Face Spaces](https://huggingface.co/spaces/Kaushikigupta/deepfake-detector)
 
-## Round 1 — Detection
-- Model: EfficientNetB0 with Transfer Learning
-- Dataset: 140,000 face images (real vs fake)
-- Validation Accuracy: **89.5%**
-- Test Predictions: 20,000 images classified
+## 🏆 Built for CodeAI Hackathon 2026 — Top 2 Finish
 
-## Round 2 — Attack
-- Method: FGSM (Fast Gradient Sign Method)
-- Attack Score: **0.5557**
-- Ranking: **2nd Place — Qualified for Finals**
+## What I Built
+- **Level 1:** Deepfake classifier using EfficientNetB0 + Transfer Learning
+  - Trained on 140K real/fake face images
+  - 90.8% validation accuracy
+- **Level 2:** FGSM adversarial attacks on real images (score: 0.5557, Rank 2)
+- **Level 3:** Adversarial training defense (76.7% robust accuracy)
 
-## Round 3 — Defense
-- Method: Adversarial Training (50/50 clean + attacked images)
-- Robust Accuracy: **76.7%**
+## 🛠️ Tech Stack
+Python, TensorFlow, Keras, EfficientNetB0, Gradio, Hugging Face Spaces
 
-## Files
-- `Untitled0.ipynb` — Full training notebook
-- `predictions.csv` — Level 1 test predictions
-- `attacked_images.zip` — Level 2 adversarial images
-- `predictions_robust.csv` — Level 3 robust predictions
-- `deepfake_model_robust.h5` — Final trained model
-
-## Tech Stack
-Python, TensorFlow, Keras, EfficientNetB0, Google Colab, Kaggle
+## 📁 Files
+- `app.py` — Gradio web app
+- `requirements.txt` — dependencies
+- `deepfake_clean.weights.h5` — trained model weights
