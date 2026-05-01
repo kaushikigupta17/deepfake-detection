@@ -3,7 +3,7 @@
 A deep learning model to detect AI-generated/fake faces vs real faces.
 
 ## 🔗 Live Demo
-[Try it on Hugging Face Spaces](https://huggingface.co/spaces/Kaushikigupta/deepfake-detector)
+👉 [Click here to try the Deepfake Detector](https://huggingface.co/spaces/Kaushikigupta/deepfake-detector)
 
 ## 🏆 Built for CodeAI Hackathon 2026 — Top 2 Finish
 
