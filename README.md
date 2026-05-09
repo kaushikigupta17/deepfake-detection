@@ -26,3 +26,7 @@ Python, TensorFlow, Keras, EfficientNetB0, Gradio, Hugging Face Spaces
 - `app.py` — Gradio web app
 - `requirements.txt` — dependencies
 - `deepfake_clean.weights.h5` — trained model weights (on HF Spaces)
+
+  ## 📸 Screenshots
+![Real Detection](screenshots/real_result.png)
+![Fake Detection](screenshots/fake_result.png)
